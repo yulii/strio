@@ -1,6 +1,7 @@
 module Main where
 
-import App
+import Client
+import TCP.Server
 
 main :: IO ()
-main = message
+main = run
